@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+::selection {
+  background-color: #19a2ae;
+  color: #fff; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+  background: linear-gradient(to right, rgba(25, 162, 174, 0.7), rgba(25, 162, 174, 0.7)), url(../images/bg-pattern-top.svg) top, url(../images/bg-pattern-bottom.svg) bottom; }
+
+.card {
+  margin: 0 auto;
+  margin-top: 8%;
+  width: 30%;
+  min-height: 20rem;
+  box-shadow: 0 2px 30px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden; }
+  @media only screen and (max-width: 1200px) {
+    .card {
+      width: 35%; } }
+  @media only screen and (max-width: 900px) {
+    .card {
+      width: 50%; } }
+  @media only screen and (max-width: 767px) {
+    .card {
+      width: 65%; } }
+  @media only screen and (max-width: 600px) {
+    .card {
+      margin-top: 50%; } }
+  @media only screen and (max-width: 500px) {
+    .card {
+      width: 90%; } }
+  @media only screen and (max-width: 400px) {
+    .card {
+      margin-top: 40%; } }
+  .card__top {
+    height: 15rem;
+    width: 100%;
+    background-image: url(../images/bg-pattern-card.svg);
+    overflow: hidden; }
+  .card__box {
+    position: absolute;
+    top: 20%;
+    left: 35%; }
+  .card__image {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100%;
+    display: block; }
+  .card__bottom {
+    width: 100%;
+    display: flex;
+    background-color: #FFf;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__no {
+    color: #969696;
+    font-size: 1.6rem;
+    font-weight: 400; }
+  .card__title {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 0.5px solid rgba(150, 150, 150, 0.2); }
+  .card__location {
+    font-size: 1.6rem;
+    color: #969696; }
+  .card__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    padding-bottom: .5rem;
+    padding-top: 3rem;
+    width: 100%;
+    text-align: center; }
+  .card__text {
+    border-radius: 50%;
+    padding: 2rem;
+    padding-top: 0; }
+
+.heading-primary {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d3248; }
+
+.heading-secondary {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d3248; }
+
+.paragraph {
+  font-size: 1.6rem;
+  color: #969696; }
